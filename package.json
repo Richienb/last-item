@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "last-item",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Get the last item in an array.",
+	"repository": "https://github.com/Richienb/last-item.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,7 +17,13 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"array",
+		"item",
+		"last",
+		"final",
+		"index"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.8.1",

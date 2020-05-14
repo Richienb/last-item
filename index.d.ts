@@ -1,15 +1,14 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Get the last item in an array.
+@param array The array to get the last item for.
 @example
 ```
-const theModule = require("the-module");
+const lastItem = require("last-item");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+lastItem([1, 2, 3]);
+//=> 3
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function lastItem<ValueType>(array: ValueType[]): ValueType
 
-export = theModule
+export = lastItem

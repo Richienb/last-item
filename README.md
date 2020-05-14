@@ -1,41 +1,30 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# last-item [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/last-item/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/last-item)
 
-My awesome module.
+Get the last item in an array.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/last-item.png)](https://npmjs.com/package/last-item)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install last-item
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const lastItem = require("last-item");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+lastItem([1, 2, 3]);
+//=> 3
 ```
 
 ## API
 
-### theModule(input, options?)
+### lastItem(array)
 
-#### input
+#### array
 
-Type: `string`
+Type: `array`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The array to get the last item for.
