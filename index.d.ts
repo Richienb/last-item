@@ -1,14 +1,14 @@
 /**
-Get the last item in an array.
-@param array The array to get the last item for.
+Get the last item in an array or other iterable.
+
+@param iterable The array or other iterable to get the last item for.
+
 @example
 ```
-const lastItem = require("last-item");
+import lastItem from 'last-item';
 
 lastItem([1, 2, 3]);
-//=> 3
 ```
 */
-declare function lastItem<ValueType>(array: ValueType[]): ValueType
-
-export = lastItem
+export default function lastItem<ValueType, _>(iterable: [..._[], ValueType]): ValueType;
+export default function lastItem<ValueType>(iterable: Iterable<ValueType>): ValueType;
