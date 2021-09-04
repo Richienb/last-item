@@ -1,6 +1,6 @@
 {
 	"name": "last-item",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Get the last item in an array or other iterable.",
 	"repository": "https://github.com/Richienb/last-item.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
